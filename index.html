@@ -12,6 +12,7 @@
         font-weight: bold;
         font-family: sans-serif;
         display: block;
+        text-align: center;
       }
       body{
         background-color: red;
@@ -19,17 +20,25 @@
       .fail{
         font-style: normal;
         color: #000000;
+        float: left;
+      }
+      .center{
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 50%;
       }
       .again{
         font-style: normal;
         color: #000000;
+        float: right;
       }
     </style>
   </head>
   <body>
     <h1>P A I N</h1>
 
-    <img src="pain.png" alt="Pain">
+    <img src="pain.png" alt="Pain" class="center">
     <p class="fail">
       FAILURE AFTER<br>
       FAILURE AFTER<br>
@@ -56,6 +65,8 @@
       AGAIN AND<br>
       AGAIN AND<br>
       AGAIN<br>
+      <br>
+      MY FAITH BEGINS TO FALTER
     </p>
 
     <script>
